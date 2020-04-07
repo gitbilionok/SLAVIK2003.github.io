@@ -1,0 +1,1055 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>Експерт — интернет магазин</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+
+	<header class="header">
+		<div class="header__menu">
+			<div class="menu__mobile">	
+				<ul class="menu__mobile__nav">	
+					<li><a href="#"><div class="wrap">Блог</div> <span class="icon-right-arrow"></span></a></li>
+					<li><a href="#"><div class="wrap">Вакансии</div> <span class="icon-right-arrow"></span></a></li>
+					<li><a href="#"><div class="wrap">Магазины</div> <span class="icon-right-arrow"></span></a></li>
+					<li><a href="#"><div class="wrap">Доставка и оплата</div> <span class="icon-right-arrow"></span></a></li>
+				</ul>
+				<div class="menu__mobile__control">
+					<div class="menu__mobile__control__item comparison">
+						<a href="#"><span class="icon-balance-icon"></span> Сравнение</a>
+					</div>
+					<div class="menu__mobile__control__item desire">
+						<a href="#"><span class="icon-heart-icon"></span> Cписок желаний</a>
+					</div>
+				</div>
+				<div class="menu__mobile__info">
+					График работы: <span>с 10:00 до 20:00</span>
+				</div>
+			</div>
+			<div class="container">
+				<div class="header__menu__top">
+					<ul class="menu">	
+						<li class="menu__list"><a href="#" class="menu__link">Блог</a></li>
+						<li class="menu__list"><a href="#" class="menu__link">Вакансии</a></li>
+						<li class="menu__list"><a href="#" class="menu__link">Магазины</a></li>
+						<li class="menu__list"><a href="#" class="menu__link">Доставка и оплата</a></li>
+					</ul>
+					<div class="header__info">
+						<div class="header__info__left">
+							<div class="header__info__location"><a href="#"><span class="icon-location-icon"></span>Санкт-Петербург<span class="icon-down-arrow"></span></a></div>
+						</div>
+						<div class="header__info__right">
+							<div class="header__info__phone"><a href="tel:88000000000"><span class="icon-phone-icon"></span>8 (800) 000-00-00</a></div>
+							<div class="header__info__text">с 10:00 до 20:00</div>
+						</div>
+					</div>
+				</div>
+				<div class="header__menu__bottom">
+					<div class="logo">
+						<a href="#"><img src="img/logo_ru.svg" alt="Експерт — интернет магазин"></a>
+					</div>
+					<form action="#" class="header__search">
+						<input class="header__search__input" type="text" placeholder="Поиск по сайту...">
+						<button class="header__search__btn"><span class="icon-search-icon"></span></button>
+					</form>
+					<div class="header__controls">
+						<a href="#" class="header__controls__desire">
+							<span class="icon-heart-icon"></span>
+						</a>
+						<a href="#" class="header__controls__comparison">
+							<span class="icon-balance-icon"></span>
+						</a>
+						<a href="#" class="header__controls__basket">
+							<span class="header__controls__basket__items">3</span>
+							<span class="icon-shopping-cart"></span>
+						</a>
+						<a href="#" class="header__search__control header__controls__search">
+							<span class="icon-search-icon1"></span>
+						</a>
+						<div class="hamburger hamburger--collapse hamburger-block">
+						  <div class="hamburger-box">
+						    <div class="hamburger-inner"></div>
+						  </div>
+						</div>
+					
+						<!-- Popup control -->
+
+						<div class="popup__basic popup__desire popup__control">
+							<div class="popup__basic__head">
+								<div class="popup__basic__head__left">
+									<span class="icon-heart-icon"></span>
+									<div class="popup__basic__head__text">У вас нет товаров</div>
+								</div>
+								<div class="popup__basic__head__right">
+									<button class="close-control-popup">&#10006;</button>
+								</div>
+							</div>
+							<div class="popup__basic__bottom">
+								Добавляйте товары в список желаний, делитесь списками с друзьями 
+								и обсуждайте товары вместе
+							</div>
+						</div>
+
+						<div class="popup__basic popup__balans popup__control">
+							<div class="popup__basic__head">
+								<div class="popup__basic__head__left">
+									<span class="icon-balance-icon"></span>
+									<div class="popup__basic__head__text">Нет товаров <br> в сравнении</div>
+								</div>
+								<div class="popup__basic__head__right">
+									<button class="close-control-popup">&#10006;</button>
+								</div>
+							</div>
+							<div class="popup__basic__bottom">
+								Добавляйте товары в сравнение характеристик и выбирайте товар, который вам подойдет лучше всего
+							</div>
+						</div>
+
+						<div class="popup__basket popup__control">
+							<div class="popup__basket__head">
+								<div class="popup__basket__head__wrap">
+									<div class="popup__basket__title">Корзина</div>
+									<button class="close-control-popup">&#10006;</button>
+								</div>
+								<div class="popup__basket__wrapper">
+									<div class="popup__basket__item">
+										<div class="popup__basket__item__img"><img src="img/shoping-card/product-1.png" alt="shoping-card-item-1"></div>
+										<div class="popup__basket__item__content">
+											<div class="popup__basket__item__content__title">Huawei P30 Lite 4/128GB Peacock Blue</div>
+											<div class="popup__basket__item__description">
+												<div class="popup__basket__item__price">20 500 руб.</div>
+												<div class="popup__basket__item__availability">2 шт</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup__basket__item">
+										<div class="popup__basket__item__img"><img src="img/shoping-card/product-2.png" alt="shoping-card-item-2"></div>
+										<div class="popup__basket__item__content">
+											<div class="popup__basket__item__content__title">Xiaomi Redmi 7 3/64GB Eclipse Black</div>
+											<div class="popup__basket__item__description">
+												<div class="popup__basket__item__price">60 500 руб.</div>
+												<div class="popup__basket__item__availability">1 шт</div>
+											</div>
+										</div>
+									</div>
+									<div class="popup__basket__item">
+										<div class="popup__basket__item__img"><img src="img/shoping-card/product-3.png" alt="shoping-card-item-3"></div>
+										<div class="popup__basket__item__content">
+											<div class="popup__basket__item__content__title">iPhone X 64GB Silver CPO (MQAD2)</div>
+											<div class="popup__basket__item__description">
+												<div class="popup__basket__item__price">40 500 руб.</div>
+												<div class="popup__basket__item__availability">1 шт</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="popup__basket__bottom">
+								<div class="popup__basket__price">121 500 руб.</div>
+								<a href="#" class="popup__basket__btn"><span class="icon-shopping-cart"></span>Оформить</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="main__content">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-12">
+						<div class="main__catalog">
+							<button class="main__catalog__title">
+								<span>Каталог товаров</span>
+								<img src="img/burger.svg" alt="burger">
+								<span class="icon-down-arrow mobile"></span>
+							</button>
+							<ul class="main__catalog__content">
+								<li>
+									<a href="#" class="main__catalog__link">Смартфоны и телефоны <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Телевизоры, аудио и фото <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Планшеты, ноутбуки и ПК <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Apple <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Xiaomi <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Гаджеты и электротранспорт <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Бытовая техника <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Спорт и здоровье <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Туризм и рыбалка <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Сантехника и ремонт <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+								<li>
+									<a href="#" class="main__catalog__link">Акции <div><span class="icon-right-arrow"></span></div></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-xl-9 col-lg-8 col-md-12">
+						<div class="main__slider">
+							<div class="main__slider__content">
+								<div class="main__slider__product">
+									<div class="main__slider__item">
+										<div class="main__slider__img"><img src="img/slider/product-1.png" alt="Слайд-1"></div>
+										<div class="main__slider__description">
+											<h1 class="main__slider__title">Больше <span>возможностей за меньшую цену</span></h1>
+											<span class="main__slider__subtitle">ZTE в Експерте</span>
+											<div class="main__slider__price">от <span>3 599</span> <!-- <b>РУБ</b> --></div>
+											<a href="#" class="main__slider__btn">Посмотреть все товары</a>
+										</div>
+									</div>
+								</div>
+								<div class="main__slider__product">
+									<div class="main__slider__item">
+										<div class="main__slider__img"><img src="img/slider/product-1.png" alt="Слайд-1"></div>
+										<div class="main__slider__description">
+											<h1 class="main__slider__title">Больше <span>возможностей за меньшую цену</span></h1>
+											<span class="main__slider__subtitle">ZTE в Експерте</span>
+											<div class="main__slider__price">от <span>3 599</span> <!-- <b>РУБ</b> --></div>
+											<a href="#" class="main__slider__btn">Посмотреть все товары</a>
+										</div>
+									</div>
+								</div>
+								<div class="main__slider__product">
+									<div class="main__slider__item">
+										<div class="main__slider__img"><img src="img/slider/product-1.png" alt="Слайд-1"></div>
+										<div class="main__slider__description">
+											<h1 class="main__slider__title">Больше <span>возможностей за меньшую цену</span></h1>
+											<span class="main__slider__subtitle">ZTE в Експерте</span>
+											<div class="main__slider__price">от <span>3 599</span> <!-- <b>РУБ</b> --></div>
+											<a href="#" class="main__slider__btn">Посмотреть все товары</a>
+										</div>
+									</div>
+								</div>
+								<div class="main__slider__product">
+									<div class="main__slider__item">
+										<div class="main__slider__img"><img src="img/slider/product-1.png" alt="Слайд-1"></div>
+										<div class="main__slider__description">
+											<h1 class="main__slider__title">Больше <span>возможностей за меньшую цену</span></h1>
+											<span class="main__slider__subtitle">ZTE в Експерте</span>
+											<div class="main__slider__price">от <span>3 599</span> <!-- <b>РУБ</b> --></div>
+											<a href="#" class="main__slider__btn">Посмотреть все товары</a>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="main__advantages">
+								<div class="main__advantages__item">
+									<div class="main__advantages__img">
+										<span class="icon-benefits-one"></span>
+									</div>
+									<div class="main__advantages__description">
+										<h2 class="main__advantages__title">Новинки</h2>
+										<p class="main__advantages__subtitle">Более 500 товаров</p>
+									</div>
+								</div>
+								<div class="main__advantages__item">
+									<div class="main__advantages__img">
+										<span class="icon-benefits-two"></span>
+									</div>
+									<div class="main__advantages__description">
+										<h2 class="main__advantages__title">Акции</h2>
+										<p class="main__advantages__subtitle">Более 999 товаров</p>
+									</div>
+								</div>
+								<div class="main__advantages__item">
+									<div class="main__advantages__img">
+										<span class="icon-benefits-three"></span>
+									</div>
+									<div class="main__advantages__description">
+										<h2 class="main__advantages__title">Хиты продаж</h2>
+										<p class="main__advantages__subtitle">Более 3000 товаров</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="offer">
+		<div class="container">
+			<div class="section__title">
+				<h2>Специальные предложения</h2>
+			</div>
+			<div class="section__categories__controls" id="myBtnContainer">
+				<button class="btn active active__btn" onclick="filterSelection('all')">Все</button>
+				<button class="btn" onclick="filterSelection('phone')">Смартфоны и телефоны</button>
+				<button class="btn" onclick="filterSelection('audio')">Телевизоры, аудио и фото</button>
+				<button class="btn" onclick="filterSelection('laptop')">Планшеты, ноутбуки и ПК</button>
+			</div>
+			<div class="section__categories__controls__mobile">
+				<div class="select">
+					<div class="select__header">
+						<span class="select__current">Выбор категории</span>
+						<div class="select__icon">&#xe90e;</div>
+					</div>
+
+					<div class="select__body">
+						<div class="select__item btn" onclick="filterSelection('all')">Все</div>
+						<div class="select__item btn" onclick="filterSelection('phone')">Смартфоны и телефоны</div>
+						<div class="select__item btn" onclick="filterSelection('audio')">Телевизоры, аудио и фото</div>
+						<div class="select__item btn" onclick="filterSelection('laptop')">Планшеты, ноутбуки и ПК</div>
+					</div>
+				</div>
+			</div>
+			<div class="product">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all phone filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/1.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 432543</div>
+								<h3 class="product__title">iPhone X 64GB Silver CPO (MQAD2)</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>60 000 руб.</b></div>
+									<div class="product__price__new">40 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">50 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all phone filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/2.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 443215</div>
+								<h3 class="product__title">Samsung Galaxy M20 4/64GB Ocean Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">15 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">20 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all phone filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/3.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431724</div>
+								<h3 class="product__title">Huawei P30 Lite 4/128GB Peacock Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">20 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">10 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all phone filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/4.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431753</div>
+								<h3 class="product__title">Xiaomi Redmi 7 3/64GB Eclipse Black</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>99 000 руб.</b></div>
+									<div class="product__price__new">60 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">15 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all audio filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/5.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 443244</div>
+								<h3 class="product__title">Телевизор LIBERTON LED 43AS1FHDTA1 Smart</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">21 185 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">25 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all audio filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/6.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 432343</div>
+								<h3 class="product__title">Телевизор liberton 40AS3FHDTA1 Black Smart model </h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>34 000 руб.</b></div>
+									<div class="product__price__new">24 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">21 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all audio filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/7.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 465164</div>
+								<h3 class="product__title">Игровые наушники HATOR Hypergang EVO (HTA-810) Black</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>10 000 руб.</b></div>
+									<div class="product__price__new">4 000 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">13 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all audio filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/8.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 433153</div>
+								<h3 class="product__title">Xiaomi Redmi 7 3/64GB Eclipse Black</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>99 000 руб.</b></div>
+									<div class="product__price__new">60 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">45 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all laptop filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/9.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 454137</div>
+								<h3 class="product__title">Планшет Apple iPad mini 5 Wi-Fi 256GB Gold (MUU62) 2019</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>60 000 руб.</b></div>
+									<div class="product__price__new">45 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">37 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all laptop filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/10.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 499123</div>
+								<h3 class="product__title">Ноутбук HP 17-by1971cl (7NN01UA)</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>70 000 руб.</b></div>
+									<div class="product__price__new">45 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">29 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all laptop filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/11.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431721</div>
+								<h3 class="product__title">Энергоэффективные ПК: моноблоки, неттопы и стики в современном офисе</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>500 000 руб.</b></div>
+									<div class="product__price__new">300 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">3 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 all laptop filterDiv">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/12.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 531753</div>
+								<h3 class="product__title">Everest Home 4085 (4085_0900)</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>40 000 руб.</b></div>
+									<div class="product__price__new">30 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">15 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="offer__wrapper">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="offer__item yellow">
+							<div class="offer__item__wrap">
+								<div class="offer__item__title">
+									<h4>5% скидка <br> на все модели</h4>
+									<p>Акция в честь 5-летия компании</p>
+								</div>
+								<button class="offer__item__btn red">Подробнее</button>
+							</div>
+							<div class="offer__item__img"><img src="img/offer/desctop-laptop.png" alt="Фотография предложения"></div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="offer__item purple">
+							<div class="offer__item__wrap">
+								<div class="offer__item__title">
+									<h4>iPhone X</h4>
+									<p>В Наличии в Санкт-Петербурге</p>
+								</div>
+								<button class="offer__item__btn pink">Подробнее</button>
+							</div>
+							<div class="offer__item__img"><img src="img/offer/iphone_X_big.png" alt="Фотография предложения"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="offer">
+		<div class="container">
+			<div class="section__title">
+				<h2>Горячие новинки</h2>
+			</div>
+			<div class="product offer__product">
+				<div class="row">
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/1.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 432543</div>
+								<h3 class="product__title">iPhone X 64GB Silver CPO (MQAD2)</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>60 000 руб.</b></div>
+									<div class="product__price__new">40 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">50 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/2.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 443215</div>
+								<h3 class="product__title">Samsung Galaxy M20 4/64GB Ocean Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">15 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">20 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/3.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431724</div>
+								<h3 class="product__title">Huawei P30 Lite 4/128GB Peacock Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">20 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">10 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/4.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431753</div>
+								<h3 class="product__title">Xiaomi Redmi 7 3/64GB Eclipse Black</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>99 000 руб.</b></div>
+									<div class="product__price__new">60 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">15 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/1.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 432543</div>
+								<h3 class="product__title">iPhone X 64GB Silver CPO (MQAD2)</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>60 000 руб.</b></div>
+									<div class="product__price__new">40 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">50 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/2.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 443215</div>
+								<h3 class="product__title">Samsung Galaxy M20 4/64GB Ocean Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">15 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">20 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/3.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431724</div>
+								<h3 class="product__title">Huawei P30 Lite 4/128GB Peacock Blue</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>30 000 руб.</b></div>
+									<div class="product__price__new">20 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">10 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+						<div class="product__item">
+							<div class="product__img"><img src="img/product/4.png" alt="Фото товара"></div>
+							<div class="product__description">
+								<div class="product__article">Артикул: 431753</div>
+								<h3 class="product__title">Xiaomi Redmi 7 3/64GB Eclipse Black</h3>
+								<div class="product__price">
+									<div class="product__price__old"><span class="product__price__old__discount">10%</span><b>99 000 руб.</b></div>
+									<div class="product__price__new">60 500 руб.</div>
+								</div>
+								<div class="product__rating">
+									<ul class="rating">
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li class="current"><span class="icon-star-icon"></span></li>
+										<li><span class="icon-star-icon"></span></li>
+									</ul>
+									<a class="product__rating__link" href="#">15 отзывов</a>
+								</div>
+								<div class="product__controls">
+									<button class="product__btn"><span class="icon-shopping-cart"></span> В корзину</button>
+									<button class="product__desire"><span class="icon-heart-icon"></span></button>
+									<button class="product__comparison"><span class="icon-balance-icon"></span></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="offer__green__wrapper">
+				<div class="row">
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="offer__green__item subscription">
+							<div class="offer__green__item__wrap">
+								<div class="offer__green__item__title">
+									<h4>Первыми узнавайте<br>о специальных предложениях <br>и новинках</h4>
+								</div>
+								<form action="#" class="offer__green__subscription">
+									<input placeholder="Ваш e-mail" type="email" required class="offer__green__subscription__input">
+									<button class="offer__green__subscription__btn"><span class="icon-send-button"></span></button>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-6 col-lg-6 col-md-12">
+						<div class="offer__green__item location">
+							<div class="offer__green__item__wrap">
+								<div class="offer__green__item__title">
+									<h4>Магазины</h4>
+									<p>Более 30 магазинов и торговых <br>точек по всей России</p>
+								</div>
+								<button class="offer__green__location__btn">Посмотреть</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="about">
+		<div class="container">
+			<div class="section__title">
+				<h2>О компании</h2>
+			</div>
+			<div class="about__info">
+				<p class="about__info__subtitle block">Не следует, однако забывать, что начало повседневной работы по формированию позиции способствует подготовки и реализации систем массового участия. Таким образом дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки существенных финансовых и административных условий. Значимость этих проблем настолько очевидна, что консультация с широким активом представляет собой интересный эксперимент проверки форм развития. Значимость этих проблем настолько очевидна, что консультация с широким активом требуют от нас анализа системы обучения кадров, соответствует насущным потребностям. Равным образом начало повседневной работы по формированию позиции требуют от нас анализа модели развития. Товарищи! рамки и место обучения кадров обеспечивает широкому кругу (специалистов) участие</p>
+				<p class="about__info__subtitle">
+					Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Мир он предупредила lorem своих сбить? Злых путь составитель букв! Но последний собрал буквоград подзаголовок он продолжил продолжил предложения наш, страна, использовало диких дал инициал языкового текста себя она предупредила текстами текстов, меня даже ее большой свое своих! Его, ручеек о страну курсивных дорогу сбить которой не по всей текста речью. Переулка по всей, вскоре раз переписывается парадигматическая семь буквоград речью осталось, lorem бросил, послушавшись, мир возвращайся щеке пустился. Знаках дал продолжил, лучше она рот залетают живет, рыбными не океана рукописи инициал сих, грамматики даль речью власти. Страну пояс свое океана маленький буквоград свой, взобравшись буквенных образ моей. Живет диких за пустился вопроса подзаголовок она деревни знаках собрал его текста, свою безопасную парадигматическая своего океана, переписывается речью дороге переписали, последний текстами рыбного? Взгляд он имени даль сих эта языком реторический всемогущая встретил. Инициал там не предупредила дороге взобравшись диких, прямо ты рыбного.
+				</p>
+				<p class="about__info__subtitle">
+					Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Мир он предупредила lorem своих сбить? Злых путь составитель букв! Но последний собрал буквоград подзаголовок он продолжил продолжил предложения наш, страна, использовало диких дал инициал языкового текста себя она предупредила текстами текстов, меня даже ее большой свое своих! Его, ручеек о страну курсивных дорогу сбить которой не по всей текста речью. Переулка по всей, вскоре раз переписывается парадигматическая семь буквоград речью осталось, lorem бросил, послушавшись, мир возвращайся щеке пустился. Знаках дал продолжил, лучше она рот залетают живет, рыбными не океана рукописи инициал сих, грамматики даль речью власти. Страну пояс свое океана маленький буквоград свой, взобравшись буквенных образ моей. Живет диких за пустился вопроса подзаголовок она деревни знаках собрал его текста, свою безопасную парадигматическая своего океана, переписывается речью дороге переписали, последний текстами рыбного? Взгляд он имени даль сих эта языком реторический всемогущая встретил. Инициал там не предупредила дороге взобравшись диких, прямо ты рыбного.
+				</p>
+				<button class="about__info__btn">Читать полностью <span class="icon-down-arrow"></span></button>
+			</div>
+		</div>
+	</section>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-3 col-lg-3 col-md-4">
+					<div class="logo__footer"><a href="#"><img src="img/logo_ru2.svg" alt="Логотип"></a></div>
+					<div class="footer__location">
+						<h5 class="footer__title">Наши магазины</h5>
+						<input type="text" placeholder="Москва" class="footer__location__input">
+						<div class="footer__location__wrap">
+							<div class="footer__location__adress flex">
+								<span class="icon-maps-icon"></span>
+								<div class="footer__location__subtitle">ул. Максимова,<br>Москва, Россия</div>
+							</div>
+							<div class="footer__location__time flex">
+								<span class="icon-clock-icon"></span>
+								<div class="footer__location__subtitle">График работы: <br> с 10:00 до 20:00</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-2 offset-xl-1 col-lg-3 offset-lg-1 col-md-4 offset-md-1 col-sm-12">
+					<ul class="footer__nav">
+						<li class="footer__list"><a href="#" class="footer__link">Доставка и оплата</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Кредит</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Гарантия</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Возврат товара</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Сервисные центры</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Вопросы и ответы</a></li>
+					</ul>
+				</div>
+				<div class="col-xl-3 offset-xl-1 col-lg-4 offset-lg-1 col-md-12 col-sm-12 hide">
+					<ul class="footer__nav">
+						<li class="footer__list"><a href="#" class="footer__link">О нас</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Условия использования сайта</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Вакансии</a></li>
+						<li class="footer__list"><a href="#" class="footer__link">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col-xl-2 offset-xl-0 col-lg-3 offset-lg-1 col-md-3 col-sm-12">
+					<div class="footer__contact">
+						<h5 class="footer__title">Свяжитесь с нами</h5>
+						<div class="footer__contact__wrap">
+							<div class="footer__contact__phone">
+								<a href="tel:88000000000" class="footer__contact__phone__link">8 (800) 000-00-00</a>
+								<span class="footer__contact__phone__subtitle">Контактный центр</span>
+							</div>
+							<div class="footer__contact__phone">
+								<a href="tel:88000000000" class="footer__contact__phone__link">8 (800) 000-00-00</a>
+								<span class="footer__contact__phone__subtitle">Для юридических лиц</span>
+							</div>
+							<div class="footer__contact__email">
+								<a href="mailto:expert@gmail.com" class="footer__contact__email__link"><span class="icon-mail-icon"></span> expert@gmail.com</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
